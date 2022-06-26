@@ -1,5 +1,5 @@
 ---
-title: "npm WARN deprecated tar@2.2.2: This version of tar is no longer supported..."
+title: "npm WARN deprecated tar@2.2.2: This version of tar is no longer..."
 emoji: "🐱"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["React.js"]
