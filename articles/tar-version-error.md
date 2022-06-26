@@ -1,5 +1,5 @@
 ---
-title: "npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.というエラーの解決法"
+title: "npm WARN deprecated tar@2.2.2: This version of tar is no longer supported...というエラーの解決法"
 emoji: "🐱"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["React.js"]
