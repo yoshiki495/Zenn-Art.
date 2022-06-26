@@ -6,12 +6,12 @@ topics: ["React.js"]
 published: true
 ---
 
-'''shell
+```shell
 $ npm i -g create-react-app 
-'''
+```
 というコマンドを打つと以下のエラーが起きる場合がある。
 
-'''
+```shell
 npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
 
 changed 67 packages, and audited 68 packages in 703ms
@@ -25,10 +25,10 @@ Some issues need review, and may require choosing
 a different dependency.
 
 Run `npm audit` for details.
-'''
+```
 
 これは、
-'''
+```shell
 npm i tar      
-'''
+```
 というコマンドを打つと解決できる。
