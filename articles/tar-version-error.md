@@ -6,7 +6,7 @@ topics: ["React.js"]
 published: true
 ---
 
-'''
+'''shell
 $ npm i -g create-react-app 
 '''
 というコマンドを打つと以下のエラーが起きる場合がある。
