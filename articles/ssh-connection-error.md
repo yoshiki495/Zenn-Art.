@@ -17,23 +17,21 @@ $ ssh -T git@github.com
 /Users/yoshikitanaka/.ssh/config: terminating, 1 bad configuration options
 ```
 
-今回の場合は鍵の設定をすれば解決しそうであったので、鍵の設定方法を2通り紹介する。
+今回の場合は鍵の設定をすれば解決しそうだったので、鍵の設定方法を2通り紹介する。
 
 1つ目が
 ```shell
 ~.ssh/config（ファイル名）
 ```
-に
+に以下の1行を追加する方法。
 ```shell
 IdentityFile 鍵へのPATH（例：~/.ssh/id_rsa）
 ```
-という1行を追加するか方法。
 
-2つ目が
+2つ目が以下のコマンドを入力して直接鍵を指定する方法。
 ```shell
 $ ssh-add 鍵へのPATH（例：~/.ssh/id_rsa ）
 ```
-で直接鍵を指定する方法。
 
 今後のためを考えると1つ目の方法を選んで、~/.ssh/configの使い方に慣れる方が良さそう。
 以下に参考になりそうな記事を載せておく。
