@@ -1,0 +1,10 @@
+title: "React + Lambda でYouTube英語学習アプリを作成してみる"
+summary: "YouTubeで英語学習の素材動画を選ぶと英語字幕・翻訳・文法を取得することができるアプリを作成します。"
+topics: ["zenn", "react", "youtube", "api", lambda] # トピック（5つまで）
+published: false # falseだと下書き
+price: 0
+chapters:
+  - at-first
+  - Reactのセットアップ
+  - Material UIの導入
+  - YouTubeの導入
