@@ -6,16 +6,6 @@ topics: ["Serverless Framework", "AWS", "Lambda"]
 published: true
 ---
 
-今回構築する環境は以下の記事の通りである。
-https://cuebic.docbase.io/posts/2480528
-注）Aurora Serverlessの部分をDynamoDBに変更
-
-## 現状
-
-以下の記事を参考にAWSのアカウント設定（スイッチ含む）は完了した。
-https://cuebic.docbase.io/posts/2186639
-
-
 ## 目次
 1. Serverlessのインストール
 2. サービスの作成
